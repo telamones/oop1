@@ -6,6 +6,8 @@
 using namespace std;
 
 class complex {
+    double im;
+    double re;
 public:
     void setRe(double real);
     double getRe();
@@ -20,9 +22,6 @@ public:
         return to_string(re) + " + " + to_string(im) + "*i";
     }
 
-private:
-    double im;
-    double re;
 };
 
 #endif
